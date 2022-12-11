@@ -1,0 +1,155 @@
+h1{
+	text-align: center;
+	color: white;
+	font-family: cursive; "Lucida Handwriting";
+	text-indent: 400px;
+}
+h6{
+	text-align: center;
+	color: white;
+	font-family: cursive; "Lucida Handwriting";
+	text-indent: 425px;
+	margin-right: 0px;
+	font-size: 20px;
+
+}
+
+p, h4,h2{
+	background-color: black;
+	margin-right: 60px;
+}
+
+.video{
+	float: right;
+	margin-right: 220px;
+	z-index: -1
+}
+
+p{
+	margin-right: 1000px;
+	font-family: cursive; "Brush Script MT";
+	color: white;
+	font-size: 18px;
+}
+
+h4, h2, h3{
+	color: white;
+	font-family: monospace; "Monaco";
+	font-size: 32px;
+}
+
+
+img{
+
+	width: 1900px;
+	height: 700px;
+	margin: -10px;
+	opacity: 0.4;
+	position: relative;
+	z-index: -2;
+}
+
+body{
+	background-color: black;
+	text-decoration: none;
+
+}
+
+.header{
+	position: absolute;
+	top: 40%;
+  	left: 40%;
+  	transform: translate(-50%, -50%);
+  	font-size: 38px;
+  	z-index: -1;
+
+}
+@keyframes fadeEffect{
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+a{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+	color: white;
+}
+
+nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: black;
+	height: 70px;
+	width: 100%;
+	border-style: solid;
+	border-width: 1.5px;
+	border-color: #FFD700; 
+}
+
+nav ul{
+	float: right;
+	margin-right: 735px;
+}
+
+nav ul li{
+	display: inline-block;
+	line-height: 50px;
+	margin: 0 50px;
+}
+
+nav ul li a{
+	color: white;
+	font-size: 20px;
+	padding: 11 35px;
+	border-radius: 10px;
+	font-family: monospace;
+
+}
+
+a.active, a:hover{
+	color: #FFD700;
+	transition: 1s;
+
+}
+
+#TikTok{
+	width: 40px;
+	height: 40px;
+	margin-right: 20px;
+	margin-left: 760px;
+	text-decoration: none;
+	opacity: 1;
+}
+
+#Instagram{
+	width: 40px;
+	height: 40px;
+	margin-right: 5px;
+	margin-left: 5px;
+	text-decoration: none;
+	opacity: 1;
+}
+
+#YouTube{
+	width: 50px;
+	height: 40px;
+	margin-right: 400px;
+	margin-left: 20px;
+	text-decoration: none;
+	opacity: 1;
+}
+
+.social ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 20px 20px;
+}
+
+#more{
+	margin-right: 0px;
+	font-size: 24px;
+}

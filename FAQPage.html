@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="./css/pages.css">
+	<head>
+		<title>FAQ Page</title>
+		<link rel="icon" type="image/x-icon" href="./immagini/favicon.png">
+	</head>
+	<body>
+		<nav>
+			<ul>
+				<li><a class="" href="./index.html">Home</a></li>
+				<li><a class="" href="./AboutPage.html">About</a></li>
+				<li><a class="active" href="./FAQPage.html">FAQ</a></li>
+			</ul>
+		</nav>
+
+		<h1>Frequently Asked Questions</h1>
+		<button class="accordion">Question 1</button>
+		<div class="panel">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse cursus congue eleifend. Vivamus gravida, nisl sed feugiat varius, sem ipsum pellentesque lacus, et tincidunt nulla sem non libero. Ut semper ante in dui lacinia laoreet. Nam nec sem in urna feugiat vulputate.</p>
+		</div>
+		<button class="accordion">Question 2</button>
+		<div class="panel">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse cursus congue eleifend. Vivamus gravida, nisl sed feugiat varius, sem ipsum pellentesque lacus, et tincidunt nulla sem non libero. Ut semper ante in dui lacinia laoreet. Nam nec sem in urna feugiat vulputate.</p>
+		</div>
+		<button class="accordion">Question 3</button>
+		<div class="panel">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse cursus congue eleifend. Vivamus gravida, nisl sed feugiat varius, sem ipsum pellentesque lacus, et tincidunt nulla sem non libero. Ut semper ante in dui lacinia laoreet. Nam nec sem in urna feugiat vulputate.</p>
+		</div>
+		<button class="accordion">Question 4</button>
+		<div class="panel">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse cursus congue eleifend. Vivamus gravida, nisl sed feugiat varius, sem ipsum pellentesque lacus, et tincidunt nulla sem non libero. Ut semper ante in dui lacinia laoreet. Nam nec sem in urna feugiat vulputate.</p>
+		</div>
+
+		<script>
+			var acc = document.getElementsByClassName("accordion");
+			var i;
+
+			for (i = 0; i < acc.length; i++) {
+  				acc[i].addEventListener("click", function() {
+    				this.classList.toggle("active");
+    				var panel = this.nextElementSibling;
+    				if (panel.style.display === "block") {
+      					panel.style.display = "none";
+    					} else {
+      						panel.style.display = "block";
+    					}
+  					});
+				}
+		</script>
+
+		<hr style="margin-top: 380px;">
+
+		<h2 style="margin-left: 100px;">For any issues</h2>
+		<h3 style="margin-left: 100px; margin-top: 50px;" id="but"><a href="./contactPage.html">Contact me</a></h3>
+
+		<h2 style="text-align: center;margin-top: 20px; margin-bottom: 20px;">Find More on</h2>
+
+		<div class="social">
+			<ul>
+				<li><a href="https://www.tiktok.com/@vlad.amb" target="blank"><img src="./immagini/TikTok_icon.png" id="TikTok"></a></li>
+				<li><a href="https://www.instagram.com/Vlad.Amb/" target="blank"><img src="./immagini/Instagram_icon.png" id="Instagram"></a></li>
+				<li><a href=""><img src="./immagini/YouTube_icon.png" id="YouTube"></a></li>
+			</ul>
+		</div>
+	</body>
+</html>
