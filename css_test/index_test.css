@@ -326,7 +326,7 @@ table{
 		left: 0;
 		background-color: black;
 		height: 70px;
-		width: 40%;
+		width: 100%;
 		border-style: solid;
 		border-width: 1.5px;
 		border-color: black;
@@ -435,6 +435,7 @@ table{
 	}
 	#navi{
 		margin-left: 450px;
+		width: 50%;
 	}
 	table{
 		margin-left: 50px;
