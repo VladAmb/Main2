@@ -222,13 +222,14 @@ table{
 
 
 				/*FOR Tablet*/
-@media screen and (max-device-width: 620px){
+@media screen and (max-device-width: 1180px){
 	h1{
 		text-align: center;
 		color: white;
 		font-family: cursive; "Lucida Handwriting";
 		text-indent: 450px;
 		margin-right: -295px;
+		width: 50%;
 	}
 	h6{
 		text-align: center;
@@ -237,6 +238,8 @@ table{
 		text-indent: 240px;
 		margin-right: -395px;
 		font-size: 12px;
+		width: 50%;
+
 
 	}
 
@@ -258,25 +261,31 @@ table{
 		font-family: cursive; "Brush Script MT";
 		color: white;
 		font-size: 14px;
-		margin-right: 400px;
+		margin-right: 200px;
 	}
 
 	h3{
 		color: white;
 		font-family: 'Josefin Sans', sans-serif;
 		font-size: 20px;
+		width: 50%;
+
 	}
 
 	h2{
 		color: white;
 		font-family: 'Josefin Sans', sans-serif;
 		font-size: 20px;
+		width: 50%;
+
 	}
 
 	h4{
 		color: white;
 		font-family: 'Martian Mono', monospace;
 		font-size: 18px;
+		width: 50%;
+
 	}
 
 	img{
@@ -287,6 +296,8 @@ table{
 		opacity: 0.4;
 		position: relative;
 		z-index: -2;
+		width: 50%;
+
 	}
 
 	body{
@@ -304,6 +315,8 @@ table{
 	  	z-index: -1;
 	  	margin-right: 0px;
 	  	margin-left: 100px;
+	  	width: 50%;
+
 
 	}
 	@keyframes fadeEffect{
