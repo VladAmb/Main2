@@ -222,9 +222,9 @@ table{
 
 
 				/*FOR Tablet*/
-@media screen and (max-device-width: 820px){
+@media screen and (max-device-width: 620px){
 	h1{
-		text-align: right;
+		text-align: center;
 		color: white;
 		font-family: cursive; "Lucida Handwriting";
 		text-indent: 450px;
@@ -234,7 +234,7 @@ table{
 		text-align: center;
 		color: white;
 		font-family: 'Unbounded', cursive;
-		text-indent: 440px;
+		text-indent: 240px;
 		margin-right: -395px;
 		font-size: 12px;
 
@@ -281,8 +281,8 @@ table{
 
 	img{
 
-		width: 1265px;
-		height: 500px;
+		width: 50%;
+		height: 300px;
 		margin: -10px;
 		opacity: 0.4;
 		position: relative;
