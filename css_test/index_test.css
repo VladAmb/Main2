@@ -222,7 +222,7 @@ table{
 
 
 				/*FOR Tablet*/
-@media screen and (max-device-width: 1180px){
+/*@media screen and (max-device-width: 1180px){
 	h1{
 		text-align: center;
 		color: white;
@@ -245,7 +245,7 @@ table{
 
 	p, h4,h2{
 		background-color: black;
-		/*margin-right: 60px;*/
+		
 	}
 
 	.vid{
@@ -256,8 +256,12 @@ table{
 		height: 50px;
 	}
 
+	.text{
+		
+	}
+
 	p{
-		/*margin-right: 500px;*/
+		
 		font-family: cursive; "Brush Script MT";
 		color: white;
 		font-size: 14px;
@@ -375,7 +379,7 @@ table{
 	#TikTok{
 		width: 25px;
 		height: 25px;
-		/*margin-right: 20px;*/
+		
 		margin-left: 100px;
 		text-decoration: none;
 		opacity: 1;
@@ -384,7 +388,7 @@ table{
 	#Instagram{
 		width: 25px;
 		height: 25px;
-		/*margin-right: 5px;*/
+		
 		margin-left: 5px;
 		text-decoration: none;
 		opacity: 1;
@@ -393,7 +397,7 @@ table{
 	#YouTube{
 		width: 25px;
 		height: 20px;
-		/*margin-right: 400px;*/
+		
 		
 		text-decoration: none;
 		opacity: 1;
@@ -420,7 +424,7 @@ table{
 	#but{
 	border: 1px solid #FFD700;
 	border-radius: 40px;
-	/*margin-right: 406px;*/
+	
 	margin-left: 470px;
 	margin-right: 102px;
 	padding: 5px 5px 5px 5px;
@@ -464,4 +468,80 @@ table{
 		margin-top: 380px;
 		margin-right: -450px;
 	}
+}
+*/
+
+
+@media (min-width:320px)  /* smartphones, iPhone, portrait 480x320 phones */  { 	
+	hr{
+		margin-top: 380px;
+	}
+
+	@keyframes fadeEffect{
+		from {opacity: 0;}
+		to {opacity: 1;}
+	}
+
+	a{
+		padding: 0;
+		margin: 0;
+		text-decoration: none;
+		list-style: none;
+		box-sizing: border-box;
+		color: white;
+	}
+
+	nav{
+		position: fixed;
+		top: 0;
+		left: 0;
+		background-color: black;
+		height: 70px;
+		width: 100%;
+		border-style: solid;
+		border-width: 1.5px;
+		border-color: black;
+	}
+
+	nav ul{
+		float: left;
+		/*margin-right: 400px;*/
+	}
+
+	nav ul li{
+		display: inline-block;
+		line-height: 50px;
+		margin: 0 15px;
+
+	}
+
+	nav ul li a{
+		color: white;
+		font-size: 14px;
+		padding: 11 5px;
+		border-radius: 10px;
+		font-family: monospace;
+
+	}
+
+	a.active, a:hover{
+		color: #FFD700;
+		transition: 1s;
+
+	}
+}
+@media (min-width:481px)  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ { 
+
+}
+@media (min-width:641px)  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ { 
+
+}
+@media (min-width:961px)  /* tablet, landscape iPad, lo-res laptops ands desktops */ { 
+
+}
+@media (min-width:1025px) /* big landscape tablets, laptops, and desktops */ { 
+
+}
+@media (min-width:1281px) /* hi-res laptops and desktops */ { 
+
 }
